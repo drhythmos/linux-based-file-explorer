@@ -14,7 +14,6 @@ The application supports two modes:
     * `LEFT ARROW KEY`: Goes back to the previously visited directory
     * `RIGHT ARROW KEY`: Goes to next directory
     * `BACKSPACE KEY`: Takes user up to one level
-    * `HOME KEY`: Takes user back to root directory
     * `UP and DOWN keys`: used for moving cursor up and down to desired file or directory
 
 ### Command Mode
@@ -28,7 +27,6 @@ This mode is entered from Normal mode whenever `:` is pressed.
 * DELETE FILE: `delete_file <file_path>`
 * DELETE DIRECTORY: `delete_dir <directory_path>`
 * SEARCH: `search <file_name / directory_name>`
-* GOTO: `goto <directory_path>`
 Pressing ESC KEY takes user back to Normal Mode.
 
 #### How to execute the program-
