@@ -27,6 +27,8 @@ This mode is entered from Normal mode whenever `:` is pressed.
 * DELETE FILE: `delete_file <file_path>`
 * DELETE DIRECTORY: `delete_dir <directory_path>`
 * SEARCH: `search <file_name / directory_name>`
+* GOTO: `goto <directory_path>`
+
 Pressing ESC KEY takes user back to Normal Mode.
 
 #### How to execute the program-
